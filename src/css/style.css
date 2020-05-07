@@ -1,0 +1,141 @@
+/*Formatacao background no header do site*/
+.bg-fundo{
+    width: 100%;
+    min-height: 500px;
+    background-image: url('../img/bg-fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.bg-fundo .container{
+    top: 55px;
+    position: relative;
+    padding: 70px 2%; 
+}
+.texto-bg h2{
+    color: white;
+    font-size: 30px;
+}
+.texto-bg p{
+    color: white;
+    font-size: 14px;
+}
+.texto-form h2{
+    color: white;
+    font-size: 30px;
+}
+.texto-form p{
+    color: white;
+    font-size: 14px;
+}
+.texto-form label{
+    color: white;
+    font-size: 14px;
+}
+/*Classe chamada*/
+.chamada{
+    padding: 8px 0;
+    background-color: #3fa3c5;
+    color: white;
+}
+.chamada i{
+    font-size: 40px;
+}
+/*Classe sobre*/
+.sobre{
+    padding: 30px 0;
+    background-color: rgba(225, 225, 225, 1);
+}
+.custom-title h2{
+    color: #555;
+    font-size: 30px;
+    text-align: center;
+}
+.box-btn{
+    text-align: center;
+}
+.btn-saiba-mais{
+    display: inline-block;
+    margin-top: 20px;
+}
+/*Classe diferenciais*/
+.diferenciais{
+    padding: 40px 0;
+    color: #646464;
+}
+.diferenciais h2{
+    font-size: 35px;
+    padding: 10px 0;
+    border-bottom: 1px dotted black;
+}
+/*Classe convite*/
+.convite {
+    background-color: #3fa3c5;
+    padding: 10px 0;
+}
+.convite h2{
+    font-size: 25px;
+    color: white;
+    margin: 20px 0;
+}
+.convite button{
+    width: 100px;
+    height: 40px;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.convite input[type=email]{
+    width: calc(100% - 100px);
+    height: 40px;
+    margin-top: 20px;
+}
+/*Classe contato*/
+.contato{
+    padding: 30px 0;
+    background-color: rgba(225, 225, 225, 1);
+}
+.contato .container{
+    max-width: 700px;
+}
+/*Footer*/
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+footer h2{
+    font-size: 25px;
+}
+footer ul{
+    list-style: none;
+    list-style-position: inside;
+}
+footer a{
+    font-size: 13px;
+}
+/*Classe icons-btn*/
+.icons-btn{
+    margin-bottom: 30px;
+}
+.icons-btn a{
+    margin: 0 5px;
+    font-size: 25px;
+    color: white;
+}
+/*Footer-2*/
+.footer-2{
+    background-color: #444;
+    text-align: center;
+}
+.footer-2 p{
+    margin: 0;
+}

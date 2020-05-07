@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto - 8 Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">LogoMarca</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="bg-fundo">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 texto-bg">
+                        <h2>Seja muito bem-vindo(a)</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
+                            since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                             centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 texto-form">
+                        <h2>Inscreva-se para nossa lista</h2>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">E-mail: </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o seu email">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="border: 0; width: 150px;">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="chamada">
+            <div class="container">
+                <h2 class="text-center"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></h2>
+            </div>
+        </section><!--chamada-->
+
+        <section class="sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 box-btn">
+                        <div class="custom-title">
+                            <div></div>
+                            <h2>Sobre</h2>
+                        </div><!--custom-title-->
+
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
+                            in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+                        </p>
+
+                        <button type="button" class="btn btn-primary btn-saiba-mais" data-toggle="modal" data-target="#exampleModal">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+            </div><!--container-->
+                    
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Minha hsitória</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
+                            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Salvar mudanças</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--sobre-->
+
+        <section class="diferenciais">
+            <div class="container">
+                <h2 style="border: 0; text-align: center; font-size: 30px">Nossos diferenciais</h2>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <h2><i class="fa fa-user"></i></h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
+                            a type specimen book. It has survived not only five centuries,
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <h2><i class="fa fa-bell-o" aria-hidden="true"></i></h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
+                            a type specimen book. It has survived not only five centuries,
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <h2><i class="fa fa-coffee" aria-hidden="true"></i></h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
+                            a type specimen book. It has survived not only five centuries,
+                        </p>
+                    </div>
+                </div><!--row-->
+            </div><!--container-->
+        </section><!--diferenciais-->
+
+        <section class="convite">
+            <div class="container">
+                <div class="row">   
+                    <div class="col-md-6 text-center">
+                        <h2><i class="fa fa-bell"></i> Participe da nossa lista!</h2>
+                    </div>
+
+                    <div class="col-md-6 text-center">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="email" id="email"><button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div><!--row-->
+            </div><!--container-->
+        </section><!--convite-->
+
+        <section class="contato">
+            <div class="container">
+                <div class="custom-title">
+                    <h2>Fale Conosco</h2>
+                </div>
+
+                <form action="">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Sua mensagem:</label>
+                        <textarea name="mensagem" class="form-control"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div><!--container-->
+        </section><!--contato-->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 icons-btn">
+                        <h2>Redes sociais</h2>
+
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-youtube"></i></a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2>Links úteis</h2>
+
+                        <ul>
+                            <li><a href="">Link 1</a></li>
+                            <li><a href="">Link 2</a></li>
+                            <li><a href="">Link 3</a></li>
+                            <li><a href="">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--container-->
+        </footer>
+
+        <footer class="footer-2">
+            <div class="container">
+                <p>&copy; Todos os direitos reservados.</p>
+            </div>
+        </footer><!--footer-2-->
+
+        <!--script-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
