@@ -3,7 +3,7 @@
 ## Layout do projeto
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/47195193/81333807-7c5bf580-907b-11ea-8c5f-347727dfcbea.png" width="650px">
+<img src="https://user-images.githubusercontent.com/47195193/81334674-c691a680-907c-11ea-900b-54ae79a71a04.png" width="650px">
 </p>
 
 ## Descrição
